@@ -29,7 +29,8 @@ LOCAL_USE_AAPT2 := true
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.core_core \
     androidx.preference_preference \
-    androidx.appcompat_appcompat-resources
+    androidx.appcompat_appcompat-resources\
+    vendor.lge.hardware.audio.dac.control-V1.0-java
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res
