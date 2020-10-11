@@ -27,9 +27,12 @@ LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_USE_AAPT2 := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
-    androidx.core_core \
-    androidx.preference_preference \
-    androidx.appcompat_appcompat-resources\
+    android-support-v4 \
+    android-support-v7-appcompat \
+    android-support-v7-preference \
+    android-support-v7-recyclerview \
+    android-support-v13 \
+    android-support-v14-preference \
     vendor.lge.hardware.audio.dac.control-V1.0-java
 
 LOCAL_RESOURCE_DIR := \
